@@ -25,27 +25,6 @@ This project is perfect for music enthusiasts who want to relive the hits of a p
 - `BeautifulSoup` for web scraping the Billboard website
 - `.env` file for storing sensitive information securely
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/champy0527/01-004_spotify-playlist-billboard-100.git
-   cd 01-004_spotify-playlist-billboard-100
-
-2. Create and activate a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   
-3.Install the required Python packages
-  ```bash
-  pip install -r requirements.txt`
-
-4. Create a .env file in the project root directory and add the following environment variables:
-  CLIENT_ID=<your_spotify_client_id>
-  CLIENT_SECRET=<your_spotify_client_secret>
-  SPOTIFY_USERNAME=<your_spotify_username>
 
 ## Usage
 1. Run the script:
@@ -54,3 +33,7 @@ This project is perfect for music enthusiasts who want to relive the hits of a p
 2.	Enter a date in the format YYYY-MM-DD to retrieve the Billboard Hot 100 for that week.
 3.	Authenticate with Spotify to create a new playlist.
 4.	The script will search for the top 100 songs on Spotify and add them to a newly created playlist in your account.
+
+## Notes
+- Due to Spotify’s song availability, some songs from the Billboard Hot 100 may not be found. The script will skip those songs if they cannot be found.
+- 	Ensure that your Spotify Developer Application is correctly set up with redirect URIs for authentication.
