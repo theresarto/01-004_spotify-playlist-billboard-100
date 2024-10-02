@@ -28,11 +28,10 @@ This project is perfect for music enthusiasts who want to relive the hits of a p
 
 ## Usage
 1. Run the script:
-  ``` sh
-  python main.py
-2.	Enter a date in the format YYYY-MM-DD to retrieve the Billboard Hot 100 for that week.
-3.	Authenticate with Spotify to create a new playlist.
-4.	The script will search for the top 100 songs on Spotify and add them to a newly created playlist in your account.
+   ```sh python main.py
+3. Enter a date in the format YYYY-MM-DD to retrieve the Billboard Hot 100 for that week.
+4.	Authenticate with Spotify to create a new playlist.
+5.	The script will search for the top 100 songs on Spotify and add them to a newly created playlist in your account.
 
 ## Notes
 - Due to Spotify’s song availability, some songs from the Billboard Hot 100 may not be found. The script will skip those songs if they cannot be found.
